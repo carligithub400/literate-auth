@@ -40,11 +40,11 @@ To use the included Bash script to implement a two-factor authentication layer (
 9. **Create a user and connect to ssh**
       - Create a user with the command that has the code main.sh as the default shell.
 
-      ``` bash
+         ``` bash
          sudo adduser $user --shell=$path_main.sh
-       ```
-      - Change $user with the name of the user and $path_main.sh with the path of the cloned code.
-      -Make sure it has execution rights:
+         ```
+     - Change $user with the name of the user and $path_main.sh with the path of the cloned code.
+     - Make sure it has execution rights:
 
      ``` bash
      chmod a+xrw literate-auth/
